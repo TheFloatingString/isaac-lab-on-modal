@@ -52,6 +52,7 @@ def main(which: str = "franka"):
     }
     task, eye, target, fname = cfgs[which]
     png = smoke.remote(task, eye, target)
-    path = Path(__file__).parent / fname
+    path = Path(__file__).parent / "img" / fname
+    path.parent.mkdir(exist_ok=True)
     path.write_bytes(png)
     print("saved", path, len(png), "bytes")
