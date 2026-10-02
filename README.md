@@ -2,6 +2,11 @@
 
 Smoke tests for [Isaac Lab](https://github.com/isaac-sim/IsaacLab) v2.3.0 (Isaac Sim 5.1.0) running on a Modal L40S GPU. Each test loads a task, steps it, and saves a third-person camera PNG.
 
+<p>
+  <img src="anymal_d_flat_third_person.png" width="49%" alt="Anymal-D flat">
+  <img src="stack_cube_franka.png" width="49%" alt="Franka stack cube">
+</p>
+
 ## Run
 
 ```bash
